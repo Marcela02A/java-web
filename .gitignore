@@ -1,3 +1,6 @@
 /.sonarlint/
 shoppingcart/build/
-/.metadata/
+.metadata/.plugins/org.eclipse.jdt.core/*.index
+.metadata/.*.log
+.metadata/.plugins/org.eclipse.core.resources/.history/
+.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes/*.index

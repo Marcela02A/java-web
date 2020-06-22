@@ -1,0 +1,34 @@
+
+e
+java:S1128"2Remove this unused import 'javax.imageio.ImageIO'.(‘çÔû8ÌıÒ­.H‡RMINORZ
+CODE_SMELL
+^
+java:S49737"9Use the "equals" method if value comparison was intended.(­ü§HˆRMAJORZBUG
+q
+java:S1128"9Remove this unused import 'java.io.ByteArrayInputStream'.(Ëôæ±ûÿÿÿÿ8ÌıÒ­.H‰RMINORZ
+CODE_SMELL
+k
+java:S11614":Add the "@Override" annotation above this method signature(ş³‚”ûÿÿÿÿHŠRMAJORZ
+CODE_SMELL
+„
+java:S19898"PHandle the following exception that could be thrown by "getWriter": IOException.(ó–‘ûÿÿÿÿH‹RMINORZVULNERABILITY
+g	java:S125+"<This block of commented-out lines of code should be removed.(óê‡­HŒRMAJORZ
+CODE_SMELL
+‡
+java:S1989,"SHandle the following exception that could be thrown by "sendRedirect": IOException.(‹òÊûÿÿÿÿHRMINORZVULNERABILITY
+}
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(²ö·ÏHRMAJORZBUG
+\
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8ÌıÒ­.HRMINORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(µØó™8°Ëüê­.HRMAJORZ
+CODE_SMELL
+‡
+java:S1989:"SHandle the following exception that could be thrown by "sendRedirect": IOException.(‹òÊûÿÿÿÿH‘RMINORZVULNERABILITY
+„
+java:S1989'"PHandle the following exception that could be thrown by "getWriter": IOException.(ùÎé³úÿÿÿÿH’RMINORZVULNERABILITY
+q
+java:S1128"9Remove this unused import 'java.awt.image.BufferedImage'.(×íĞ‡şÿÿÿÿ8ÌıÒ­.H“RMINORZ
+CODE_SMELL
+^
+java:S4973%"9Use the "equals" method if value comparison was intended.(­ü§H”RMAJORZBUG

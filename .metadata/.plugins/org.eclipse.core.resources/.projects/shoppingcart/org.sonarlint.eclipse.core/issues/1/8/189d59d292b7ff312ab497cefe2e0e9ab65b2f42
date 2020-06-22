@@ -1,0 +1,20 @@
+
+Œ
+java:S1989."VHandle the following exception that could be thrown by "getOutputStream": IOException.(³°•Ü8õØ‚ì­.HáRMINORZVULNERABILITY
+‡
+java:S19890"LHandle the following exception that could be thrown by "close": IOException.(ÿš“†øÿÿÿÿ8õØ‚ì­.HàRMINORZVULNERABILITY
+‘
+java:S19890"VHandle the following exception that could be thrown by "getOutputStream": IOException.(ÿš“†øÿÿÿÿ8õØ‚ì­.HäRMINORZVULNERABILITY
+‚
+java:S19891"LHandle the following exception that could be thrown by "flush": IOException.(…ìş8õØ‚ì­.HåRMINORZVULNERABILITY
+[
+java:S1185"(Remove this method to simply inherit it.(®´š¥8™éıî­.H¿RMINORZ
+CODE_SMELL
+
+java:S1989+"RHandle the following exception that could be thrown by "getUser": RemoteException.(”ªì†ÿÿÿÿÿ8õØ‚ì­.HãRMINORZVULNERABILITY
+Œ
+java:S19891"VHandle the following exception that could be thrown by "getOutputStream": IOException.(…ìş8õØ‚ì­.HâRMINORZVULNERABILITY
+‚
+java:S1989."LHandle the following exception that could be thrown by "write": IOException.(³°•Ü8õØ‚ì­.HßRMINORZVULNERABILITY
+š
+java:S1989;"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(®Ó‘ûÿÿÿÿÿ8õØ‚ì­.HæRMINORZVULNERABILITY

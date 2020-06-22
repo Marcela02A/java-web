@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+D:\Marcela\ProyectosEclipse\servletJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\358765717.index
+\shoppingcart\src
+D:\Marcela\ProyectosEclipse\servletJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2335385954.index
+\website\src
+D:\Marcela\ProyectosEclipse\servletJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2887390884.index
+\website\src
+D:\Marcela\ProyectosEclipse\servletJSP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\98669183.index
+\shoppingcart\src
