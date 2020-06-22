@@ -1,0 +1,15 @@
+<web-app>
+	<servlet>
+		<servlet-name>Index</servlet-name>
+		<servlet-class>controller.Index</servlet-class>
+		<init-param>
+			<param-name>productName</param-name>
+			<param-value> Yet another product name</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Index</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+</web-app>
