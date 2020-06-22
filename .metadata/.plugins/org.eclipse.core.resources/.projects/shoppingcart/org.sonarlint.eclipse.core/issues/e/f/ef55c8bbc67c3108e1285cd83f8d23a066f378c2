@@ -1,15 +1,0 @@
-
-e
-java:S4973>"9Use the "equals" method if value comparison was intended.(­ü§8×¬ìë­.HÕRMAJORZBUG
-„
-java:S1989-"PHandle the following exception that could be thrown by "getWriter": IOException.(ùÎé³úÿÿÿÿHÓRMINORZVULNERABILITY
-
-java:S19892"SHandle the following exception that could be thrown by "sendRedirect": IOException.(‹òÊûÿÿÿÿ8ı…íë­.H×RMINORZVULNERABILITY
-‹
-java:S1989?"PHandle the following exception that could be thrown by "getWriter": IOException.(ó–‘ûÿÿÿÿ8ı…íë­.HÜRMINORZVULNERABILITY
-n	java:S1251"<This block of commented-out lines of code should be removed.(óê‡­8×¬ìë­.HÛRMAJORZ
-CODE_SMELL
-e
-java:S4973+"9Use the "equals" method if value comparison was intended.(­ü§8ı…íë­.HÖRMAJORZBUG
-
-java:S1989A"SHandle the following exception that could be thrown by "sendRedirect": IOException.(‹òÊûÿÿÿÿ8×¬ìë­.HØRMINORZVULNERABILITY

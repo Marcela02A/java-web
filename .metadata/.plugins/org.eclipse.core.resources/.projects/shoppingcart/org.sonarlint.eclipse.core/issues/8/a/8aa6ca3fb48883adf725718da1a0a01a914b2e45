@@ -1,70 +1,0 @@
-
-ˆ
-java:S1192"TDefine a constant instead of duplicating this literal "http://tempuri.org/" 3 times.(«ó÷ûÿÿÿÿHÔRCRITICALZ
-CODE_SMELL
-g
-java:S1141¦"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿHÕRMAJORZ
-CODE_SMELL
-	java:S117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã×“ÁúÿÿÿÿHÖRMINORZ
-CODE_SMELL
-}	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òó îH×RMINORZ
-CODE_SMELL
-‚	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿöá¢üÿÿÿÿHØRMINORZ
-CODE_SMELL
-‚	java:S117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àƒ·ÑùÿÿÿÿHÙRMINORZ
-CODE_SMELL
-‚	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë‚ÖûÿÿÿÿHÚRMINORZ
-CODE_SMELL
-‡
-java:S3008"VRename this field "_operations" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆß–ÿÿÿÿÿHÛRMINORZ
-CODE_SMELL
-‘
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Û‡÷—HÜRMAJORZ
-CODE_SMELL
-‘
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÍîåšHİRMAJORZ
-CODE_SMELL
-–
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(¸Æ§ùÿÿÿÿHŞRMAJORZ
-CODE_SMELL
-‘
-java:S1149"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(õ³ˆÖHßRMAJORZ
-CODE_SMELL
-y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Í½ßHàRMINORZ
-CODE_SMELL
-¨
-java:S11302"wRemove the declaration of thrown exception 'org.apache.axis.AxisFault', as it cannot be thrown from constructor's body.(Á÷Ë¨ùÿÿÿÿHáRMINORZ
-CODE_SMELL
-R
-java:S1181Š"%Catch Exception instead of Throwable.(Òó îHâRMAJORZ
-CODE_SMELL
-‰
-java:S2737­"WAdd logic to this catch clause or eliminate it and rethrow the exception automatically.(ø¥› ûÿÿÿÿHãRMINORZ
-CODE_SMELL
-W
-java:S1481;"+Remove this unused "qName2" local variable.(öëñÜHäRMINORZ
-CODE_SMELL
-W
-java:S1481>"+Remove this unused "enumsf" local variable.(››‹‰HåRMINORZ
-CODE_SMELL
-\
-java:S1481?"+Remove this unused "enumdf" local variable.(æ³ÆşÿÿÿÿHæRMINORZ
-CODE_SMELL
-X
-java:S1481@",Remove this unused "arraysf" local variable.(ÜôÜÔHçRMINORZ
-CODE_SMELL
-]
-java:S1481A",Remove this unused "arraydf" local variable.(¼İºüÿÿÿÿHèRMINORZ
-CODE_SMELL
-^
-java:S1481B"-Remove this unused "simplesf" local variable.(ÍçÌûÿÿÿÿHéRMINORZ
-CODE_SMELL
-Y
-java:S1481C"-Remove this unused "simpledf" local variable.(Š¦Î­HêRMINORZ
-CODE_SMELL
-b
-java:S1481D"1Remove this unused "simplelistsf" local variable.(˜àÓİıÿÿÿÿHëRMINORZ
-CODE_SMELL
-]
-java:S1481E"1Remove this unused "simplelistdf" local variable.(¤³ÃHìRMINORZ
-CODE_SMELL

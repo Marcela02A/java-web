@@ -1,23 +1,3 @@
 
-J
-WebContent/WEB-INF/web.xml,c\5\c510f2eaee6faa7ce096cfb89f5dcfc359c14265
-R
-"src/com/cars/controller/Index.java,e\f\ef55c8bbc67c3108e1285cd83f8d23a066f378c2
-Å
-Qsrc/org/datacontract/schemas/_2004/_07/ApplicationServices_Entities/UserInfo.java,f\d\fd0e9d95dcdf122cca78c614e5bd83e65739eeff
-Y
-)src/org/tempuri/BasicHttpBindingStub.java,8\a\8aa6ca3fb48883adf725718da1a0a01a914b2e45
-K
-WebContent/pages/header.jsp,b\5\b524b03c3792bc972664dce3eb7bbe540ad7e97b
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 Q
 !src/com/cars/controller/File.java,1\8\189d59d292b7ff312ab497cefe2e0e9ab65b2f42
-Q
-!src/com/cars/controller/Home.java,0\d\0db566bca52a8e535df91ffe6982425aadf57884
-V
-&src/org/tempuri/IUserServiceProxy.java,b\e\be1ef96b1bafb671db50a2248b04785a723e17fa
-O
-WebContent/META-INF/MANIFEST.MF,7\e\7e3c1364cb3462ecda722a7cad8cd391378e7818
-D
-WebContent/login.jsp,7\a\7a1eb200d83415e32c5744d453986d88626fda9f
