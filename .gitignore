@@ -1,5 +1,3 @@
-/.metadata/
 /.sonarlint/
-Servers/
-website/.settings/
-website/build/
+shoppingcart/build/
+/.metadata/
