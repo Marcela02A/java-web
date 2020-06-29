@@ -1,6 +1,8 @@
 package com.cars.controller;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -18,8 +20,24 @@ import javax.servlet.http.HttpServletResponse;
 public class Info extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public Info() {
-		super();
+	@Override
+	public void init() throws ServletException {
+
+		ApplicationSetting applicationSetting = new ApplicationSetting();
+		CssClass cssClass = new CssClass();
+		cssClass.setName("blueUser");
+		Map<String, Tab> tabs=new HashMap<>();
+		tabs.put("singIn", new Tab("singIn","#singIn"));
+		tabs.put("home", new Tab("Home","#home"));
+		tabs.put("profile", new Tab("Profile","#profile"));
+		tabs.put("settings", new Tab("Settings","#settings"));
+		applicationSetting.setTabs(tabs);		
+	
+		String[] tabName= {"SingIn", "Home","Profile","Setting"};
+		// anidamos Beans
+		applicationSetting.setTabName(tabName);
+		applicationSetting.setFormCssClass(cssClass);
+		getServletContext().setAttribute("app", applicationSetting);
 	}
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -29,11 +47,16 @@ public class Info extends HttpServlet {
 		user.set_name("mar");
 		user.set_email("mar.ar@gmail.com");
 
+		try {
+			
+		
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/login.jsp");
 		// pasar el bean a la pagina
 		request.setAttribute("user", user);
 		dispatcher.forward(request, response);
-
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
