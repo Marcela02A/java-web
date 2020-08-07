@@ -26,14 +26,14 @@ public class Info extends HttpServlet {
 		ApplicationSetting applicationSetting = new ApplicationSetting();
 		CssClass cssClass = new CssClass();
 		cssClass.setName("blueUser");
-		Map<String, Tab> tabs=new HashMap<>();
-		tabs.put("singIn", new Tab("singIn","#singIn"));
-		tabs.put("home", new Tab("Home","#home"));
-		tabs.put("profile", new Tab("Profile","#profile"));
-		tabs.put("settings", new Tab("Settings","#settings"));
-		applicationSetting.setTabs(tabs);		
-	
-		String[] tabName= {"SingIn", "Home","Profile","Setting"};
+		Map<String, Tab> tabs = new HashMap<>();
+		tabs.put("singIn", new Tab("singIn", "#singIn"));
+		tabs.put("home", new Tab("Home", "#home"));
+		tabs.put("profile", new Tab("Profile", "#profile"));
+		tabs.put("settings", new Tab("Settings", "#settings"));
+		applicationSetting.setTabs(tabs);
+
+		String[] tabName = { "SingIn", "Home", "Profile", "Setting" };
 		// anidamos Beans
 		applicationSetting.setTabName(tabName);
 		applicationSetting.setFormCssClass(cssClass);
@@ -46,14 +46,16 @@ public class Info extends HttpServlet {
 		InfoUser user = new InfoUser();
 		user.set_name("mar");
 		user.set_email("mar.ar@gmail.com");
+		user.setAvatar("https://imagenmix.net/wp-content/uploads/2016/09/imagenes-bonitas.jpg");
+		user.addPriority("Select All", 1);
+		user.addPriority("go for a run", 3);
 
 		try {
-			
-		
-		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/login.jsp");
-		// pasar el bean a la pagina
-		request.setAttribute("user", user);
-		dispatcher.forward(request, response);
+
+			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/WEB-INF/login.jsp");
+			// pasar el bean a la pagina
+			request.setAttribute("user", user);
+			dispatcher.forward(request, response);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}

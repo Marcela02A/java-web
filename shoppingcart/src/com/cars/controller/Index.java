@@ -41,13 +41,13 @@ public class Index extends HttpServlet {
 			throws ServletException, IOException {
 		String name = request.getParameter("name");
 		if (name != null && name != "") {
-			response.setContentType("text/xml");
+			//response.setContentType("text/xml");
 			response.getWriter().printf(
 					"<aplication>" + "<name>Hello %s</name>" + "<product>%s</product>" + "</aplication>", name,
 					appName);
 		} else {
 			// request.getRequestDispatcher("login.jsp").forward(request, response);
-			response.sendRedirect("login.jsp");
+			response.sendRedirect("login");
 		}
 	}
 
