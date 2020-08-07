@@ -1,0 +1,32 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<short-name>app-tags</short-name>
+	<uri>http://carlos/tag</uri>
+	<jsp-version>2.2</jsp-version>
+
+	<tag-file>
+		<name>helloWorld</name>
+		<path>/META-INF/tags/helloworld.tag</path>
+	</tag-file>
+
+	<tag>
+		<name>beautiful</name>
+		<tag-class>com.shoppingcart.app.taglib.Beauty</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+
+	<!-- agregamos otro elemento de etiqueta -->
+	<tag>
+		<name>beautyRepeat</name>
+		<tag-class>com.shoppingcart.app.taglib.BeautyRepeat</tag-class>
+		<body-content>scriptless</body-content>
+		<attribute>
+		<description>
+Collection of items to iterate over.
+        </description>
+			<name>beauty</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

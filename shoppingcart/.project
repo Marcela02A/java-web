@@ -3,6 +3,7 @@
 	<name>shoppingcart</name>
 	<comment></comment>
 	<projects>
+		<project>taglib</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

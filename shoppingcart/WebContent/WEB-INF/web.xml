@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
 	<display-name>shoppingcart</display-name>
 	<context-param>
-	<param-name>productName</param-name>
-	<param-value>La arepas de la abuela</param-value>
+		<param-name>productName</param-name>
+		<param-value>La arepas de la abuela</param-value>
 	</context-param>
 	<servlet>
 		<servlet-name>Index</servlet-name>
@@ -17,4 +20,17 @@
 		<servlet-name>Index</servlet-name>
 		<url-pattern>/home</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>default</servlet-name>
+		<url-pattern>/resources/*</url-pattern>
+	</servlet-mapping>
+
+	<!-- escucha el momento en el que se inicializa una aplicacion -->
+	<listener>
+		<listener-class>events.ListenerApp</listener-class>  
+	</listener>
+	<session-config>
+		<session-timeout>45</session-timeout>
+	</session-config>
+	
 </web-app>
