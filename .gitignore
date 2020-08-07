@@ -2,3 +2,4 @@
 shoppingcart/build/
 /.metadata/
 shoppingcart/target/
+shoppingcart/WebContent/WEB-INF/settings.xml

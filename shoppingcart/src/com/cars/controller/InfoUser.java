@@ -1,10 +1,24 @@
 package com.cars.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class InfoUser {
 	private String name;
 	private String email;
+	private String avatar;
+	private List<Priority> all;
+
+	public String getAvatar() {
+		return avatar;
+	}
+
+	public void setAvatar(String avatar) {
+		this.avatar = avatar;
+	}
 
 	public InfoUser() {
+		all = new ArrayList<Priority>();
 	}
 
 	public String get_name() {
@@ -21,6 +35,14 @@ public class InfoUser {
 
 	public void set_email(String _email) {
 		this.email = _email;
+	}
+
+	public List<Priority> getAll() {
+		return all;
+	}
+
+	public void addPriority(String description, int priority) {
+		all.add(new Priority(description, priority));
 	}
 
 }
